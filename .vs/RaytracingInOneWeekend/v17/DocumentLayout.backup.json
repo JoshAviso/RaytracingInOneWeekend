@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\RaytracingInOneWeekend.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:RaytracingInOneWeekend.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:Vec3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:Vec3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:hittable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable_list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:hittable_list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\rtweekend.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:rtweekend.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|D:\\Josh\\localRepos\\RaytracingInOneWeekend\\ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{545450A7-E43D-47D2-988A-B41520E4C566}|RaytracingInOneWeekend.vcxproj|solutionrelative:ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 368,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 32,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ebac7c74-3b95-5b1e-b483-338a08cbadf2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sphere.cpp",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.cpp",
+              "RelativeDocumentMoniker": "sphere.cpp",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.cpp",
+              "RelativeToolTip": "sphere.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T00:59:06.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "material.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\material.h",
+              "RelativeDocumentMoniker": "material.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\material.h",
+              "RelativeToolTip": "material.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwD8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-17T00:56:54.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vec3.cpp",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.cpp",
+              "RelativeDocumentMoniker": "Vec3.cpp",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.cpp",
+              "RelativeToolTip": "Vec3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T00:04:08.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "camera.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\camera.h",
+              "RelativeDocumentMoniker": "camera.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\camera.h",
+              "RelativeToolTip": "camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-16T23:40:40.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "rtweekend.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\rtweekend.h",
+              "RelativeDocumentMoniker": "rtweekend.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\rtweekend.h",
+              "RelativeToolTip": "rtweekend.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vxgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:20:30.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "hittable_list.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable_list.h",
+              "RelativeDocumentMoniker": "hittable_list.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable_list.h",
+              "RelativeToolTip": "hittable_list.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:18:26.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "sphere.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.h",
+              "RelativeDocumentMoniker": "sphere.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\sphere.h",
+              "RelativeToolTip": "sphere.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:15:45.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "hittable.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable.h",
+              "RelativeDocumentMoniker": "hittable.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\hittable.h",
+              "RelativeToolTip": "hittable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:13:08.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ray.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\ray.h",
+              "RelativeDocumentMoniker": "ray.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\ray.h",
+              "RelativeToolTip": "ray.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:05:52.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Color.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Color.h",
+              "RelativeDocumentMoniker": "Color.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Color.h",
+              "RelativeToolTip": "Color.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T21:00:02.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vec3.h",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.h",
+              "RelativeDocumentMoniker": "Vec3.h",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\Vec3.h",
+              "RelativeToolTip": "Vec3.h",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-08T10:50:26.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RaytracingInOneWeekend.cpp",
+              "DocumentMoniker": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\RaytracingInOneWeekend.cpp",
+              "RelativeDocumentMoniker": "RaytracingInOneWeekend.cpp",
+              "ToolTip": "D:\\Josh\\localRepos\\RaytracingInOneWeekend\\RaytracingInOneWeekend.cpp",
+              "RelativeToolTip": "RaytracingInOneWeekend.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T01:55:57.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
