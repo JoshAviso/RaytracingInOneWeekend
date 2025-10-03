@@ -1,2 +1,11 @@
 ﻿  RaytracingInOneWeekend.cpp
+D:\Josh\localRepos\RaytracingInOneWeekend\rtweekend.h(37,68): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'RaytracingInOneWeekend.cpp')
+  
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(229,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(229,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(229,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(486,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(486,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp(486,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   RaytracingInOneWeekend.vcxproj -> D:\Josh\localRepos\RaytracingInOneWeekend\x64\Debug\RaytracingInOneWeekend.exe

@@ -76,12 +76,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Josh\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories}</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories};C:\Users\Josh\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world455d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -92,14 +93,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Josh\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories}</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories};C:\Users\Josh\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world455.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -108,12 +110,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Josh\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories}</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories};C:\Users\Josh\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world455d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -124,34 +127,47 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Josh\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories}</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%{AdditionalIncludeDirectories};C:\Users\Josh\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world455.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="hittable_list.cpp" />
+    <ClCompile Include="IThread.cpp" />
+    <ClCompile Include="PNGImage.cpp" />
     <ClCompile Include="ray.cpp" />
     <ClCompile Include="RaytracingInOneWeekend.cpp" />
+    <ClCompile Include="RayTracingWorkerAction.cpp" />
     <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
     <ClCompile Include="Vec3.cpp" />
+    <ClCompile Include="WorkerThread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
     <ClInclude Include="hittable_list.h" />
+    <ClInclude Include="IExecutionEvent.h" />
+    <ClInclude Include="IThread.h" />
+    <ClInclude Include="IWorkerAction.h" />
+    <ClInclude Include="PNGImage.h" />
     <ClInclude Include="ray.h" />
+    <ClInclude Include="RayTracingWorkerAction.h" />
     <ClInclude Include="sphere.h" />
+    <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="Vec3.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="hittable.h" />
     <ClInclude Include="rtweekend.h" />
     <ClInclude Include="material.h" />
+    <ClInclude Include="WorkerThread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

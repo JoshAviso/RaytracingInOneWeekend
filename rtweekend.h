@@ -30,6 +30,18 @@ inline double random_double(double min, double max) {
 	// Returns a random real in [min,max).
 	return min + (max - min) * random_double();
 }
+#include <random>
+#include <thread>
+// Thread-local mt19937 generator
+inline double threadsafe_random_double() {
+	static thread_local std::mt19937 generator(std::random_device{}() + std::hash<std::thread::id>{}(std::this_thread::get_id()));
+	static thread_local std::uniform_real_distribution<double> distribution(0.0, 1.0);
+	return distribution(generator);
+}
+inline double threadsafe_random_double(double min, double max) {
+	// Returns a random real in [min,max).
+	return min + (max - min) * threadsafe_random_double();
+}
 
 // Common Headers
 #include "ray.h"

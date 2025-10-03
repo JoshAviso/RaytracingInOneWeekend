@@ -35,6 +35,14 @@ public:
 			lower_left_corner + s * horizontal + t * vertical - origin - offset
 		);
 	}
+	ray threadsafe_get_ray(double s, double t) const {
+		vec3 rd = lens_radius * threadsafe_random_in_unit_disk();
+		vec3 offset = u * rd.x() + v * rd.y();
+		return ray(
+			origin + offset,
+			lower_left_corner + s * horizontal + t * vertical - origin - offset
+		); 
+	}
 private:
 	point3 origin;
 	point3 lower_left_corner;

@@ -1,6 +1,11 @@
 D:\Josh\localRepos\RaytracingInOneWeekend\camera.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\camera.obj
 D:\Josh\localRepos\RaytracingInOneWeekend\hittable_list.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\hittable_list.obj
+D:\Josh\localRepos\RaytracingInOneWeekend\IThread.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\IThread.obj
+D:\Josh\localRepos\RaytracingInOneWeekend\PNGImage.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\PNGImage.obj
 D:\Josh\localRepos\RaytracingInOneWeekend\ray.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\ray.obj
 D:\Josh\localRepos\RaytracingInOneWeekend\RaytracingInOneWeekend.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\RaytracingInOneWeekend.obj
+D:\Josh\localRepos\RaytracingInOneWeekend\RayTracingWorkerAction.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\RayTracingWorkerAction.obj
 D:\Josh\localRepos\RaytracingInOneWeekend\sphere.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\sphere.obj
+D:\Josh\localRepos\RaytracingInOneWeekend\ThreadPool.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\ThreadPool.obj
 D:\Josh\localRepos\RaytracingInOneWeekend\Vec3.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\Vec3.obj
+D:\Josh\localRepos\RaytracingInOneWeekend\WorkerThread.cpp;D:\Josh\localRepos\RaytracingInOneWeekend\Raytraci.545450a7\x64\Debug\WorkerThread.obj

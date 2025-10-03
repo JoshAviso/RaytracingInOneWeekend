@@ -130,3 +130,11 @@ inline vec3 random_in_unit_disk() {
 		return p;
 	}
 }
+
+inline vec3 threadsafe_random_in_unit_disk() {
+	while (true) {
+		auto p = vec3(threadsafe_random_double(-1, 1), threadsafe_random_double(-1, 1), 0);
+		if (p.length_squared() >= 1) continue;
+		return p;
+	}
+}
