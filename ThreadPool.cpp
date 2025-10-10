@@ -48,8 +48,8 @@ void ThreadPool::run()
 
 				// Grab and assign queued task
 				auto task = this->PendingTasks.front();
-				this->PendingTasks.pop();
 				workerThread->AssignTask(task);
+				this->PendingTasks.pop();
 
 				workerThread->start();
 			}

@@ -22,7 +22,7 @@ private:
 	void run() override;
 
 	int _id;
-	IFinishedTask* _onFinished;
-	IWorkerAction* _task;
+	IFinishedTask* _onFinished = nullptr;
+	IWorkerAction* _task = nullptr;
 };
 
